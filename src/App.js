@@ -127,12 +127,12 @@ function App() {
     
    
     
-</div>
-  </div>
+    </div>
+      </div>
 
-    <footer >
-      <p>&copy; 2023 ArtShop</p>
-    </footer>
+        <footer >
+          <p>&copy; 2023 ArtShop</p>
+        </footer>
      </body>
     
      </div>

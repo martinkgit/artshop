@@ -107,7 +107,7 @@ function FrontPage({array}) {
   <main>
     <div class = 'front-page-container1'>
       <section id="hero" class = "justify-content-center">
-      <h1>ArtShop</h1>
+      <h1>Welcome to ArtShop</h1>
       <Carousel class = "carousel slide carousel-fade"
       activeIndex={activeIndex}
       next={next}
@@ -131,16 +131,19 @@ function FrontPage({array}) {
       />
     </Carousel>
       
-        <h2>Welcome to ArtShop</h2>
-        <p style = {{textAlign: "center", fontSize: "16px", font: "Source Sans Pro"}}>Nämä kuvat on luotu valikoimalla Hubble-teleskoopin ottamista kuvista
+        
+        <p style = {{textAlign: "center", fontSize: "16px", font: "Source Sans Pro", paddingTop : "10px"}}>Nämä kuvat on luotu valikoimalla Hubble-teleskoopin ottamista kuvista
           kaikista näyttävimmän, ja yhdistämällä ne keskenään. Käytetty ohjelma valitsee kuvien
           joukosta satunnaisesti kaksi kuvaa, käy niiden pikselit läpi yksitellen ja rakentaa näistä
           pikseleistä keskimääräisen tuloksen, jossa on osa molempia kohteita. Tällä tavalla
           saadaan luotua aidon näköisiä avaruuden maisemia, jotka ehkä ovatkin olemassa
           jossain loputtomassa avaruudessa.</p>
+         
+         
           <Link to = {`/shop`}>
-        <button class = "button">Shop Now</button>
+        <button class = "button-shop">Shop Now</button>
         </Link>
+       
       </section>
       </div>
       
