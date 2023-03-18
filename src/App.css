@@ -43,10 +43,12 @@ html, .App, .root {
   background: white;
   height: 100%;
   width: 100%;
+  min-height: 1000px;
   align-self: center;
   padding-left: 10px;
   padding-right: 10px;
- 
+  min-width: 70vw;
+  max-width: 70vw;
 }
 
 body {
@@ -270,14 +272,18 @@ footer {
 
   .container-light{
     background: white;
+    min-height: 1000px;
     height: 100%;
     width: 100%;
     left: 0;
     padding-left: 10px;
     padding-right: 10px;
     margin-left: 0;
-   
+    min-width: 70vw;
+    max-width: 70vw;
   }
+   
+  
 
 
   .card-container{
@@ -292,7 +298,6 @@ footer {
     align-items: center;
     justify-content: right;
     max-width: 50%;
-   
   }
 
   h1 {
